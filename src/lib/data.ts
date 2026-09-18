@@ -10,8 +10,8 @@ export const profile: Profile = {
 
 // Static link definitions; click counts are tracked in MongoDB per link id.
 const linkDefinitions: Omit<LinkCardData, "clicks">[] = [
-  { id: "github", label: "GitHub", url: "https://github.com" },
-  { id: "linkedin", label: "LinkedIn", url: "https://linkedin.com" },
+  { id: "github", label: "GitHub", url: "https://github.com/yongdaechoi" },
+  { id: "instagram", label: "Instagram", url: "https://www.instagram.com/youngfifty_tax" },
   { id: "blog", label: "Blog", url: "https://example.com/blog" },
 ];
 
