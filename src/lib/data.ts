@@ -5,7 +5,7 @@ import type { LinkCardData, Profile } from "@/types";
 export const profile: Profile = {
   name: "최용대",
   bio: "헤르메스 사업단장",
-  avatarUrl: "/avatar.svg",
+  avatarUrl: "/프로필사진.jpg",
 };
 
 // Static link definitions; click counts are tracked in MongoDB per link id.
