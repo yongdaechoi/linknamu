@@ -5,7 +5,13 @@ export function Profile({ name, bio, avatarUrl }: ProfileType) {
   return (
     <div className="flex flex-col items-center gap-3 text-center">
       <div className="relative h-32 w-32 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800">
-        <Image src={avatarUrl} alt={name} fill sizes="128px" className="object-cover" />
+        <Image
+          src={avatarUrl}
+          alt={name}
+          fill
+          sizes="128px"
+          className="object-cover object-[90%_center]"
+        />
       </div>
       <div>
         <h1 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">{name}</h1>
